@@ -6,12 +6,6 @@ $(document).ready(function () {
         searchUser(username)
     })
 
-    // $("#form").submit(function (event) {
-    //     event.preventDefault()
-    //     var username = $("#username").val()
-    //     searchUser(username)
-    // })
-
     function searchUser(username) {
         $("#result").empty()
         $.get("http://api.github.com/search/users?q=" + username + "+in:user&per_page=100", function (data) {
