@@ -20,7 +20,7 @@ $(document).ready(function () {
                                     <div class="col-md-8">
                                         <div class="card-body">
                                             <h5 class="card-title" style="width: 250px; margin: 20px;">${item.login}</h5>
-                                            <a href="repository.html?user=${item.login}" class="btn btn-primary" style="width: 250px; margin: 20px;">View Repository</a>
+                                            <a href="formRepository.html?user=${item.login}" class="btn btn-primary" style="width: 250px; margin: 20px;">View Repository</a>
                                         </div>
                                     </div>
                                 </div>
